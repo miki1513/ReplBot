@@ -1,7 +1,7 @@
 import Client from "msgroom";
 import { generate, count } from "random-words";
 
-const client = new Client("ReplBot [?]", [ "?" ]);
+const client = new Client("ReplBot [repl!]", [ "repl!" ]);
 await client.connect();
 client.commands.ping = () => "pong";
 
