@@ -13,4 +13,4 @@ client.commands.vote = () => "Voted!";
 client.commands.vencord = () => "Vencord is a Discord client mod!";
 client.commands.betterdiscord = () => "BetterDiscord is a Discord client mod!";
 client.commands.randomword = () => (generate({ minLength: 1, maxLength: 1000000 }));;
-client.commands.botinfo = () => "Server: Replit. Bot username: ReplBot. Source? Not yet"
+client.commands.botinfo = () => "Server: Replit. Bot username: ReplBot. Source? Not yet but may be soon!"
