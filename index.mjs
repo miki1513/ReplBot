@@ -14,4 +14,4 @@ client.commands.vencord = () => "Vencord is a Discord client mod!";
 client.commands.betterdiscord = () => "BetterDiscord is a Discord client mod!";
 client.commands.randomword = () => (generate({ minLength: 1, maxLength: 1000000 }));;
 client.commands.botinfo = () => "Server: Replit. Bot username: ReplBot. Source? https://github.com/miki1513/ReplBot"
-client.commands.msgroom = () => "the chat you're now"
+client.commands.msgroom = () => "the chat you're in now"
