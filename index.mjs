@@ -16,3 +16,4 @@ client.commands.randomword = () => (generate({ minLength: 1, maxLength: 1000000 
 client.commands.botinfo = () => "Server: Replit. Bot username: ReplBot. Source? https://github.com/miki1513/ReplBot"
 client.commands.msgroom = () => "the chat you're in now"
 client.commands.bored = () => "That's okay!"
+client.commands.troll = () => "That command doesn't exist. Run repl!help for a list of commands"
