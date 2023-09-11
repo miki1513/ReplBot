@@ -3,6 +3,19 @@ import { generate, count } from "random-words";
 
 const client = new Client("ReplBot [repl!]", [ "repl!" ]);
 await client.connect();
+import express from 'express';
+  
+const app = express();
+  
+app.get('/',(req,res) => {
+    res.send('Welcome to ReplBot server!');
+})
+  
+const PORT = 443;
+  
+app.listen(PORT,() => {
+    console.log(`Running on PORT ${PORT}`);
+})
 console.log("Connected to MsgRoom servers")
 client.commands.ping = () => "pong";
 
